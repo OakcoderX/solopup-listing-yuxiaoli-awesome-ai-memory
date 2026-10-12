@@ -1,0 +1,423 @@
+{
+  "defaultLocale": "en",
+  "title": {
+    "en": "Awesome AI Memory",
+    "zh-CN": "AI 记忆精选",
+    "zh-HK": "AI 記憶精選"
+  },
+  "description": {
+    "en": "A curated collection of AI memory engines, agents, integrations, knowledge stores, and learning resources for retaining, organizing, retrieving, and reusing context across interactions and tasks.",
+    "zh-CN": "精选 AI 记忆引擎、智能体、集成工具、知识存储与学习资源，帮助保留、组织、检索并复用跨会话和跨任务的上下文。",
+    "zh-HK": "精選 AI 記憶引擎、智能體、整合工具、知識儲存及學習資源，支援保留、整理、檢索和重用跨對話及跨任務的上下文。"
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "Memory Engines and Services",
+        "zh-CN": "记忆引擎与服务",
+        "zh-HK": "記憶引擎及服務"
+      },
+      "description": {
+        "en": "Engines, libraries, and services that capture, maintain, and retrieve lasting user or agent context for AI applications.",
+        "zh-CN": "为 AI 应用捕获、维护和检索长期用户或智能体上下文的引擎、库与服务。",
+        "zh-HK": "為 AI 應用擷取、維護及檢索長期用戶或智能體上下文的引擎、程式庫和服務。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "EverOS",
+            "zh-CN": "EverOS",
+            "zh-HK": "EverOS"
+          },
+          "url": "https://github.com/EverMind-AI/EverOS",
+          "description": {
+            "en": "Local memory runtime that stores conversations, files, and agent experience as Markdown, with indexed retrieval and consolidation across sessions.",
+            "zh-CN": "本地记忆运行时，将对话、文件和智能体经验保存为 Markdown，并提供索引检索与跨会话记忆整合。",
+            "zh-HK": "本機記憶執行環境，將對話、檔案和智能體經驗儲存為 Markdown，並提供索引檢索及跨對話記憶整合。"
+          }
+        },
+        {
+          "name": {
+            "en": "memU",
+            "zh-CN": "memU",
+            "zh-HK": "memU"
+          },
+          "url": "https://github.com/NevaMind-AI/memU",
+          "description": {
+            "en": "Shared memory system that distills agent session history into retrievable personal knowledge and reusable Markdown skills.",
+            "zh-CN": "共享记忆系统，将智能体会话历史提炼为可检索的个人知识和可复用的 Markdown 技能。",
+            "zh-HK": "共享記憶系統，將智能體對話歷史提煉為可檢索的個人知識及可重用的 Markdown 技能。"
+          }
+        },
+        {
+          "name": {
+            "en": "Memobase",
+            "zh-CN": "Memobase",
+            "zh-HK": "Memobase"
+          },
+          "url": "https://github.com/memodb-io/memobase",
+          "description": {
+            "en": "User memory service that turns conversations into configurable profiles and event timelines for personalized LLM applications.",
+            "zh-CN": "用户记忆服务，将对话转化为可配置的用户画像和事件时间线，为大语言模型应用提供个性化上下文。",
+            "zh-HK": "用戶記憶服務，將對話轉化為可設定的用戶概況及事件時間線，為大型語言模型應用提供個人化上下文。"
+          }
+        },
+        {
+          "name": {
+            "en": "MemOS",
+            "zh-CN": "MemOS",
+            "zh-HK": "MemOS"
+          },
+          "url": "https://github.com/MemTensor/MemOS",
+          "description": {
+            "en": "Memory system for LLMs and agents that manages graph-organized, multimodal long-term memory with retrieval, editing, sharing, and feedback correction.",
+            "zh-CN": "面向大语言模型与智能体的记忆系统，以图结构组织多模态长期记忆，支持检索、编辑、共享与反馈修正。",
+            "zh-HK": "面向大型語言模型及智能體的記憶系統，以圖結構整理多模態長期記憶，支援檢索、編輯、共享及回饋修正。"
+          }
+        },
+        {
+          "name": {
+            "en": "Supermemory",
+            "zh-CN": "Supermemory",
+            "zh-HK": "Supermemory"
+          },
+          "url": "https://github.com/supermemoryai/supermemory",
+          "description": {
+            "en": "AI memory engine that extracts conversational facts, maintains user profiles, tracks changing information, and retrieves memories alongside document context.",
+            "zh-CN": "AI 记忆引擎，可提取对话事实、维护用户画像、跟踪信息变化，并结合文档上下文检索记忆。",
+            "zh-HK": "AI 記憶引擎，可擷取對話事實、維護用戶概況、追蹤資訊變化，並結合文件上下文檢索記憶。"
+          }
+        },
+        {
+          "name": {
+            "en": "TencentDB Agent Memory",
+            "zh-CN": "TencentDB Agent Memory",
+            "zh-HK": "TencentDB Agent Memory"
+          },
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "description": {
+            "en": "Shared agent memory platform that preserves conversation knowledge and reusable skills, organizes document and code assets, and manages access across sessions and agents.",
+            "zh-CN": "共享智能体记忆平台，保留对话知识与可复用技能，组织文档和代码资产，并管理跨会话、跨智能体的访问权限。",
+            "zh-HK": "共享智能體記憶平台，保留對話知識及可重用技能，整理文件和程式碼資產，並管理跨對話、跨智能體的存取權限。"
+          }
+        },
+        {
+          "name": {
+            "en": "MindMemOS",
+            "zh-CN": "MindMemOS",
+            "zh-HK": "MindMemOS"
+          },
+          "url": "https://github.com/mindscale-noah/MindMemOS",
+          "description": {
+            "en": "Portable agent memory service for user and task context, with retrieval, feedback-driven consolidation, and experience-to-skill distillation.",
+            "zh-CN": "可迁移的智能体记忆服务，保存用户与任务上下文，支持检索、基于反馈的记忆整合和经验到技能的提炼。",
+            "zh-HK": "可遷移的智能體記憶服務，儲存用戶及任務上下文，支援檢索、根據回饋整合記憶，以及將經驗提煉為技能。"
+          }
+        },
+        {
+          "name": {
+            "en": "Mem0",
+            "zh-CN": "Mem0",
+            "zh-HK": "Mem0"
+          },
+          "url": "https://github.com/mem0ai/mem0",
+          "description": {
+            "en": "Memory layer that extracts and retrieves user, session, and agent information to support personalized AI assistants across interactions.",
+            "zh-CN": "提取和检索用户、会话及智能体信息的记忆层，为 AI 助手在多次交互中提供个性化上下文。",
+            "zh-HK": "擷取及檢索用戶、對話和智能體資訊的記憶層，為 AI 助手在多次互動中提供個人化上下文。"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Agents and Applications with Persistent Memory",
+        "zh-CN": "具备持久记忆的智能体与应用",
+        "zh-HK": "具備持久記憶的智能體及應用"
+      },
+      "description": {
+        "en": "Agents and applications that preserve personal context, project knowledge, or learned experience for reuse in later interactions and tasks.",
+        "zh-CN": "保留个人上下文、项目知识或学习经验，并在后续交互与任务中复用的智能体和应用。",
+        "zh-HK": "保留個人上下文、項目知識或學習經驗，並在後續互動及任務中重用的智能體和應用。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "Letta (MemGPT)",
+            "zh-CN": "Letta (MemGPT)",
+            "zh-HK": "Letta (MemGPT)"
+          },
+          "url": "https://github.com/letta-ai/letta",
+          "description": {
+            "en": "Legacy repository for stateful AI agents with persistent memory, with the retired Letta V1 server preserved on the archive branch.",
+            "zh-CN": "面向具备持久记忆的有状态 AI 智能体的历史代码仓库，已退役的 Letta V1 服务端保留在 archive 分支。",
+            "zh-HK": "面向具備持久記憶的有狀態 AI 智能體的歷史程式碼庫，已退役的 Letta V1 伺服器程式保留於 archive 分支。"
+          }
+        },
+        {
+          "name": {
+            "en": "Second Me",
+            "zh-CN": "Second Me",
+            "zh-HK": "Second Me"
+          },
+          "url": "https://github.com/Mindverse/Second-Me",
+          "description": {
+            "en": "Personal AI prototype that uses hierarchical memory modeling and local training to build an AI representation from a user's memories and context.",
+            "zh-CN": "个人 AI 原型，通过分层记忆建模与本地训练，基于用户记忆和上下文构建个人 AI 分身。",
+            "zh-HK": "個人 AI 原型，透過分層記憶建模及本機訓練，根據用戶記憶和上下文建立個人 AI 分身。"
+          }
+        },
+        {
+          "name": {
+            "en": "Codewhale (formerly DeepSeek TUI)",
+            "zh-CN": "Codewhale（原 DeepSeek TUI）",
+            "zh-HK": "Codewhale（原 DeepSeek TUI）"
+          },
+          "url": "https://github.com/Hmbown/DeepSeek-TUI",
+          "description": {
+            "en": "Coding agent with opt-in local memory for user preferences and repository conventions, stored as Markdown with SQLite full-text retrieval across sessions.",
+            "zh-CN": "编程智能体，可选启用本地记忆，以 Markdown 保存用户偏好和代码仓库约定，并通过 SQLite 全文检索跨会话调用。",
+            "zh-HK": "程式開發智能體，可選擇啟用本機記憶，以 Markdown 儲存用戶偏好及程式碼庫慣例，並透過 SQLite 全文檢索跨對話取用。"
+          }
+        },
+        {
+          "name": {
+            "en": "OpenLoopX (LLM4AD Next)",
+            "zh-CN": "OpenLoopX (LLM4AD Next)",
+            "zh-HK": "OpenLoopX (LLM4AD Next)"
+          },
+          "url": "https://github.com/Optima-CityU/LLM4AD_Next",
+          "description": {
+            "en": "LLM-driven algorithm-design platform with optional MindMemOS-backed long-term memory for recalling experience, constraints, and lessons across tasks and projects.",
+            "zh-CN": "由大语言模型驱动的算法设计平台，可选接入 MindMemOS 长期记忆，在不同任务与项目间检索和复用经验、约束及教训。",
+            "zh-HK": "由大型語言模型驅動的演算法設計平台，可選擇接入 MindMemOS 長期記憶，在不同任務及項目間檢索和重用經驗、限制與教訓。"
+          }
+        },
+        {
+          "name": {
+            "en": "OpenHuman",
+            "zh-CN": "OpenHuman",
+            "zh-HK": "OpenHuman"
+          },
+          "url": "https://github.com/tinyhumansai/openhuman",
+          "description": {
+            "en": "Rust agent harness and desktop assistant with persistent conversation and learning storage, contextual recall, and memory inspection and deletion.",
+            "zh-CN": "基于 Rust 的智能体运行框架与桌面助手，提供持久化对话和学习内容存储、上下文检索，以及记忆查看与删除功能。",
+            "zh-HK": "以 Rust 開發的智能體執行框架及桌面助手，提供持久化對話和學習內容儲存、上下文檢索，以及記憶檢視和刪除功能。"
+          }
+        },
+        {
+          "name": {
+            "en": "Oh My Pi",
+            "zh-CN": "Oh My Pi",
+            "zh-HK": "Oh My Pi"
+          },
+          "url": "https://github.com/can1357/oh-my-pi",
+          "description": {
+            "en": "Coding agent with optional project-scoped memory for retaining facts, recalling experience, editing stored knowledge, and carrying session context into later work.",
+            "zh-CN": "编程智能体，可选启用按项目隔离的记忆，用于保留事实、检索经验、编辑已存知识，并将会话上下文带入后续工作。",
+            "zh-HK": "程式開發智能體，可選擇啟用按項目分隔的記憶，用於保留事實、檢索經驗、編輯已儲存知識，並將對話上下文帶入後續工作。"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Memory Stores and Knowledge Graphs",
+        "zh-CN": "记忆存储与知识图谱",
+        "zh-HK": "記憶儲存及知識圖譜"
+      },
+      "description": {
+        "en": "Stores that organize agent memory as hierarchies, local notes, or knowledge graphs so that durable context can be searched and reused.",
+        "zh-CN": "以层级结构、本地笔记或知识图谱组织智能体记忆的存储工具，使持久上下文可被检索与复用。",
+        "zh-HK": "以層級結構、本機筆記或知識圖譜整理智能體記憶的儲存工具，讓持久上下文可供檢索及重用。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "Lithium",
+            "zh-CN": "Lithium",
+            "zh-HK": "Lithium"
+          },
+          "url": "https://github.com/0xJaksun/lithium-core",
+          "description": {
+            "en": "PostgreSQL-backed context store for AI agents, with hierarchical retrieval, versioned entries, and MCP tools for preserving decisions and project knowledge.",
+            "zh-CN": "基于 PostgreSQL 的智能体上下文存储，提供层级检索、条目版本管理及 MCP 工具，用于保留决策与项目知识。",
+            "zh-HK": "以 PostgreSQL 為基礎的智能體上下文儲存工具，提供層級檢索、條目版本管理及 MCP 工具，用於保留決策和項目知識。"
+          }
+        },
+        {
+          "name": {
+            "en": "Flowix",
+            "zh-CN": "Flowix",
+            "zh-HK": "Flowix"
+          },
+          "url": "https://github.com/text2future/flowix",
+          "description": {
+            "en": "Local Markdown notebook that provides shared, durable context for AI agents through MCP and CLI tools for searching, reading, creating, and updating notes.",
+            "zh-CN": "本地 Markdown 笔记本，通过 MCP 与命令行工具搜索、读取、创建和更新笔记，为 AI 智能体提供共享的持久上下文。",
+            "zh-HK": "本機 Markdown 筆記簿，透過 MCP 及命令列工具搜尋、讀取、建立和更新筆記，為 AI 智能體提供共享的持久上下文。"
+          }
+        },
+        {
+          "name": {
+            "en": "Cognee",
+            "zh-CN": "Cognee",
+            "zh-HK": "Cognee"
+          },
+          "url": "https://github.com/topoteretes/cognee",
+          "description": {
+            "en": "Knowledge graph memory platform that connects documents, code, conversations, and learned session lessons for persistent agent recall.",
+            "zh-CN": "知识图谱记忆平台，将文档、代码、对话和会话中学到的经验关联起来，供智能体持久检索与复用。",
+            "zh-HK": "知識圖譜記憶平台，將文件、程式碼、對話及從對話中學到的經驗互相關聯，供智能體持續檢索和重用。"
+          }
+        },
+        {
+          "name": {
+            "en": "Graphiti",
+            "zh-CN": "Graphiti",
+            "zh-HK": "Graphiti"
+          },
+          "url": "https://github.com/getzep/graphiti",
+          "description": {
+            "en": "Framework for building temporal context graphs for AI agents, with evolving facts, episode provenance, and hybrid semantic, keyword, and graph retrieval.",
+            "zh-CN": "面向 AI 智能体的时序上下文图框架，记录事实变化与事件来源，并结合语义、关键词和图检索。",
+            "zh-HK": "面向 AI 智能體的時序上下文圖框架，記錄事實變化及事件來源，並結合語義、關鍵字和圖檢索。"
+          }
+        },
+        {
+          "name": {
+            "en": "MemPalace",
+            "zh-CN": "MemPalace",
+            "zh-HK": "MemPalace"
+          },
+          "url": "https://github.com/mempalace/mempalace",
+          "description": {
+            "en": "Conversation memory store that preserves original text locally, with hierarchical organization, semantic search, temporal relationships, and MCP access.",
+            "zh-CN": "在本地保留原始对话文本的记忆存储，提供层级组织、语义搜索、时间关系与 MCP 访问。",
+            "zh-HK": "在本機保留原始對話文字的記憶儲存工具，提供層級整理、語義搜尋、時間關係及 MCP 存取。"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Coding Agent Memory Integrations",
+        "zh-CN": "编程智能体记忆集成",
+        "zh-HK": "程式開發智能體記憶整合"
+      },
+      "description": {
+        "en": "Memory servers and plugins that preserve coding-session context, engineering lessons, preferences, or architectural decisions for later work.",
+        "zh-CN": "为后续开发保留编程会话上下文、工程经验、用户偏好或架构决策的记忆服务与插件。",
+        "zh-HK": "為後續開發保留程式開發對話上下文、工程經驗、用戶偏好或架構決策的記憶服務及外掛程式。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "agentmemory",
+            "zh-CN": "agentmemory",
+            "zh-HK": "agentmemory"
+          },
+          "url": "https://github.com/rohitg00/agentmemory",
+          "description": {
+            "en": "Persistent memory server for coding agents, with session capture, hybrid recall, memory consolidation, and MCP and REST interfaces.",
+            "zh-CN": "面向编程智能体的持久记忆服务，提供会话捕获、混合检索、记忆整合以及 MCP 和 REST 接口。",
+            "zh-HK": "面向程式開發智能體的持久記憶服務，提供對話擷取、混合檢索、記憶整合，以及 MCP 和 REST 介面。"
+          }
+        },
+        {
+          "name": {
+            "en": "MemoraX Code",
+            "zh-CN": "MemoraX Code",
+            "zh-HK": "MemoraX Code"
+          },
+          "url": "https://github.com/memorax-ai/memorax-code",
+          "description": {
+            "en": "Shared memory layer for coding agents that retains engineering lessons, repository knowledge, user preferences, and reusable procedures across sessions.",
+            "zh-CN": "面向编程智能体的共享记忆层，跨会话保留工程经验、代码仓库知识、用户偏好与可复用流程。",
+            "zh-HK": "面向程式開發智能體的共享記憶層，跨對話保留工程經驗、程式碼庫知識、用戶偏好及可重用流程。"
+          }
+        },
+        {
+          "name": {
+            "en": "claude-supermemory",
+            "zh-CN": "claude-supermemory",
+            "zh-HK": "claude-supermemory"
+          },
+          "url": "https://github.com/supermemoryai/claude-supermemory",
+          "description": {
+            "en": "Claude Code plugin that uses Supermemory to capture durable conversation context, recall relevant memories, and share repository memory across sessions.",
+            "zh-CN": "Claude Code 插件，借助 Supermemory 保存持久的对话上下文、检索相关记忆，并跨会话共享代码仓库记忆。",
+            "zh-HK": "Claude Code 外掛程式，透過 Supermemory 儲存持久的對話上下文、檢索相關記憶，並跨對話共享程式碼庫記憶。"
+          }
+        },
+        {
+          "name": {
+            "en": "codebase-memory-mcp",
+            "zh-CN": "codebase-memory-mcp",
+            "zh-HK": "codebase-memory-mcp"
+          },
+          "url": "https://github.com/DeusData/codebase-memory-mcp",
+          "description": {
+            "en": "Local MCP server that preserves code knowledge graphs and architectural decision records for reuse across AI coding sessions.",
+            "zh-CN": "本地 MCP 服务，保存代码知识图谱与架构决策记录，供 AI 编程智能体跨会话复用。",
+            "zh-HK": "本機 MCP 伺服器，儲存程式碼知識圖譜及架構決策記錄，供 AI 程式開發智能體跨對話重用。"
+          }
+        },
+        {
+          "name": {
+            "en": "Claude-Mem",
+            "zh-CN": "Claude-Mem",
+            "zh-HK": "Claude-Mem"
+          },
+          "url": "https://github.com/thedotmack/claude-mem",
+          "description": {
+            "en": "Persistent memory system that captures coding-agent tool observations, generates summaries, and retrieves project context for later sessions.",
+            "zh-CN": "持久记忆系统，可捕获编程智能体的工具观察结果、生成摘要，并为后续会话检索项目上下文。",
+            "zh-HK": "持久記憶系統，可擷取程式開發智能體的工具觀察結果、產生摘要，並為後續對話檢索項目上下文。"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Evaluation and Learning Resources",
+        "zh-CN": "评测与学习资源",
+        "zh-HK": "評測及學習資源"
+      },
+      "description": {
+        "en": "Evaluation code and runnable teaching examples for understanding, implementing, and comparing AI memory mechanisms.",
+        "zh-CN": "用于理解、实现和比较 AI 记忆机制的评测代码与可运行教学示例。",
+        "zh-HK": "用於理解、實作及比較 AI 記憶機制的評測程式碼和可執行教學範例。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "Agent Memory Leaderboard",
+            "zh-CN": "Agent Memory Leaderboard",
+            "zh-HK": "Agent Memory Leaderboard"
+          },
+          "url": "https://github.com/AML-memory/agent-memory-leaderboard",
+          "description": {
+            "en": "Public evaluation contracts and scoring implementations for comparing long-term memory systems through a shared add-and-search protocol.",
+            "zh-CN": "公开的评测接口约定与评分实现，通过统一的添加和搜索协议比较长期记忆系统。",
+            "zh-HK": "公開的評測介面約定及評分實作，透過統一的新增和搜尋協定比較長期記憶系統。"
+          }
+        },
+        {
+          "name": {
+            "en": "AI Engineering from Scratch",
+            "zh-CN": "AI Engineering from Scratch",
+            "zh-HK": "AI Engineering from Scratch"
+          },
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "description": {
+            "en": "AI engineering curriculum with runnable educational Python examples of agent context paging, editable memory blocks, consolidation, and hybrid memory stores.",
+            "zh-CN": "AI 工程课程，提供可运行的 Python 教学示例，涵盖智能体上下文分页、可编辑记忆块、记忆整合与混合记忆存储。",
+            "zh-HK": "AI 工程課程，提供可執行的 Python 教學範例，涵蓋智能體上下文分頁、可編輯記憶區塊、記憶整合及混合記憶儲存。"
+          }
+        }
+      ]
+    }
+  ]
+}
